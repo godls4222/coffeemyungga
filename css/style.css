@@ -1,0 +1,72 @@
+/* style.css */
+/*
+    페이지 폭 : 1200px
+    서체: Noto sans KR
+
+*/
+/* 초기화 */
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+li {list-style-type: none;}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 14px;
+    color: #000;
+}
+
+/* header */
+#main_header {
+    width: 1200px; height: 68px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+#main_header h1 {
+    position: absolute;
+    width: 68px; height: 68px;
+    left: 40px;
+}
+
+/* gnb */
+#gnb {
+    width: 1200px; height: 15px;
+    /* background: #ccc; */
+    margin: 0 auto;
+    position: relative;
+    /* outline: 1px solid red; */
+}
+#gnb > .depth1 {
+    position: absolute;
+    z-index: 999;
+    left: 281px;
+}
+#gnb > .depth1 > li {
+    float: left;
+    width: calc(423px / 5);
+    text-align: center;
+    font-size: 15px;
+}
+#gnb > .depth1 > li > a {
+    height: 15px;
+    display: block;
+    line-height: 15px;
+    font-weight: 400;
+}
+#gnb > .depth1 > li > a:hover {
+    color: #fcd742;
+}
+
+/* depth2 메뉴 */
+#gnb .depth2 {
+    background: #fff;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    display: none;
+}

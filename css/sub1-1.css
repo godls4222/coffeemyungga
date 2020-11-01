@@ -1,0 +1,75 @@
+/* sub 1-1.css */
+
+/* 서브 비주얼 영역 */
+#sub_visual {
+    width: 100%;
+    margin: 0 auto;
+    /* outline: 2px solid red; */
+}
+
+/* 서브 비주얼 배경 */
+#sub_visual > header {
+    position: relative;
+    height: 847px;
+    background: url(/images/sub_visual.jpg);
+    background-size: cover;
+}
+
+/* 서브 비주얼 텍스트 */
+#sub_visual > header > p:first-child {
+    color: #382410;
+    position: relative;
+    top: 10%;
+    left: 20%;
+    font-size: 36px; font-weight: 700;
+}
+.under_bar {
+    position: relative;
+    top: 10%; left: 20%;
+    display: inline-block;
+    width: 80px;
+    border-bottom: 3px solid #ffea00;
+    margin-bottom: 10px;
+}
+#sub_visual > header > p:last-child {
+    color: #fff;
+    position: relative;
+    top: 10%;
+    left: 20%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+/* 서브 컨텐트 영역 */
+#sub_visual .sub_content {
+    position: relative;
+    height: 898px;
+    background: url(/images/sub_content.jpg);
+    background-size: cover;
+}
+
+/* 서브 컨텐트 텍스트 */
+#sub_visual .sub_content > p:first-child {
+    color: #382410;
+    position: relative;
+    top: 2%;
+    left: 10%;
+    font-size: 36px; font-weight: 500;
+}
+.sub_content .under_bar_2 {
+    position: relative;
+    top: 2%; left: 10%;
+    display: inline-block;
+    width: 180px;
+    border-bottom: 3px solid #ffea00;
+    margin-bottom: 10px;
+}
+.sub_content > p:nth-child(3) {
+    color: #fff;
+    position: relative;
+    top: 2%;
+    left: 10%;
+    font-size: 18px; font-weight: 500;
+    /* outline: 2px solid red; */
+}

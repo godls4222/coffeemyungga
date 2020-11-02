@@ -4,14 +4,14 @@
 #sub_visual {
     width: 100%;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 /* 서브 비주얼 배경 */
 #sub_visual > header {
     position: relative;
     height: 847px;
-    background: url(/images/sub_visual.jpg);
+    background: url(../images/sub_visual.jpg);
     background-size: cover;
 }
 
@@ -45,7 +45,7 @@
 #sub_visual .sub_content {
     position: relative;
     height: 898px;
-    background: url(/images/sub_content.jpg);
+    background: url(../images/sub_content.jpg);
     background-size: cover;
 }
 

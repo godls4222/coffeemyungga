@@ -11,7 +11,7 @@
 #menu_visual > header {
     position: relative;
     height: 300px;
-    background: url(/images/menu_visual.edit.jpg);
+    background: url(../images/menu_visual.edit.jpg);
     background-size: cover;
 }
 

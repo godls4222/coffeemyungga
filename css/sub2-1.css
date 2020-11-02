@@ -18,9 +18,10 @@
 /* 메뉴 비주얼 텍스트 */
 #menu_visual > header > p {
     color: #fff;
-    position: relative;
+    position: absolute;
     top: 40%; 
     left: 50%;
+    transform: translateX(-50%);
     font-size: 30px; font-weight: 700;
 }
 

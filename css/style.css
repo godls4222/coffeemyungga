@@ -67,6 +67,7 @@ body {
     padding: 10px;
     font-size: 13px;
     font-weight: 400;
+    height: 120px;
     display: none;
 }
 #gnb .depth2 > li {

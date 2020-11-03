@@ -10,7 +10,8 @@
 #location_visual > header {
     position: relative;
     height: 300px;
-    background: url(../images/location_visual.edit.jpg);
+    background: url(../images/location_visual.edit.1-1.jpg);
+    background-position: center;
     background-size: cover;
 }
 

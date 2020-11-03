@@ -10,8 +10,10 @@
 /* 메뉴 비주얼 배경 */
 #menu_visual > header {
     position: relative;
+    overflow: hidden;
     height: 300px;
-    background: url(../images/menu_visual.edit.jpg);
+    background: url(../images/menu_visual.edit.1-2.jpg);
+    background-position: center;
     background-size: cover;
 }
 
